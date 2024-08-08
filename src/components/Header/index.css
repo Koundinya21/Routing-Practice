@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.background-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  align-items: center;
+}
+@media (max-width: 575px) {
+  .background-container {
+    padding: 15px;
+  }
+}
+.img-container {
+  display: flex;
+  align-items: center;
+}
+.symbol {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #551e53;
+  padding-left: 10px;
+}
+.items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+.text {
+  text-decoration: none;
+}
